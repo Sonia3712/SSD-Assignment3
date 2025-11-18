@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Showcase</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f9fc;
+        }
+        header {
+            background: #4a6cf7;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1581291518601-ec953d6e88b0');
+            height: 350px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 45px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .btn-main {
+            background: #ff9f43;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        .products {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            padding: 40px;
+        }
+        .card {
+            background: white;
+            width: 280px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 15px 0 10px;
+        }
+        .card p {
+            padding: 0 15px 20px;
+        }
+        .footer {
+            background: #4a6cf7;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>TechEase Store</header>
+
+    <section class="hero">
+        <h1>Welcome to TechEase</h1>
+        <p>Your one‑stop shop for premium smart gadgets</p>
+        <button class="btn-main" onclick="window.location.href='attacker.html'">Explore More</button>
+    </section>
+
+    <section class="products">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1602080858428-57174f15f6fe" />
+            <h3>Smart Headphones</h3>
+            <p>Noise‑cancelling wireless headphones with 30‑hour battery life.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" />
+            <h3>Portable Speaker</h3>
+            <p>High‑quality bass with water‑resistant design.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1512499617640-c2f999098c01" />
+            <h3>Smartwatch</h3>
+            <p>Track fitness, messages, and more with an elegant interface.</p>
+        </div>
+    </section>
+
+    <div class="footer">© 2025 TechEase Store — All Rights Reserved</div>
+</body>
+</html>
